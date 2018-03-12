@@ -1,4 +1,4 @@
-package com.movieapp;
+package com.ailaw;
 
 import android.app.Application;
 import android.util.Log;

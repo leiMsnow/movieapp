@@ -1,4 +1,4 @@
-rootProject.name = 'movieapp'
+rootProject.name = 'AILAW'
 
 include ':app'
 include ':react-native-vector-icons'
