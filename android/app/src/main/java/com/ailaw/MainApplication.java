@@ -1,6 +1,7 @@
 package com.ailaw;
 
 import android.app.Application;
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.support.annotation.NonNull;
 
@@ -46,6 +47,12 @@ public class MainApplication extends NavigationApplication {
 		new LinearGradientPackage(),
 		new ReactNativeConfigPackage()
     );
+  }
+
+  @Nullable
+  @Override
+  public String getJSMainModuleName() {
+    return "index";
   }
 
   @Override
